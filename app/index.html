@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv = "X-UA-Compatible" content = "ie = edge">
+    <meta http-equiv="X-UA-Compatible" content="ie = edge">
     <title>Title</title>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-
     <header class="header">
-
         <div class="header__top">
             <div class="container">
                 <div class="header__top-inner">
@@ -24,7 +25,7 @@
                     <div class="header__text">
                         <a href="">Become a Seller</a>
                     </div>
-                    
+
                     <div class="header__box">
                         <a class="ring" href=""></a>
                         <a class="message" href=""></a>
@@ -75,9 +76,244 @@
         </div>
     </header>
 
+    <section class="search" style="background-image: url(images/background.svg);">
+        <div class="container">
+            <div class="search__inner">
+                <div class="search__inner-title">Create Your Own
+                    <p>Digital Product Marketplace</p>
+                </div>
+                <div class="search__inner-text">MartPlace is the most powerful, & customizable template for Easy Digital
+                    Downloads Products</div>
+                <div class="search__inner-btn">
+                    <a href="#" class="inner__btn inner__btn-left">View All Products</a>
+                    <a href="#" class="inner__btn inner__btn-right">Popular Products</a>
+                </div>
+                <div class="search__inner-form">
+                    <div class="search__inner-wrapper">
+                        <form action=""><input type="text" placeholder="Search your products..." required>
+                            <select name="select">
+                                <option disabled selected>All Categories</option>
+                                <option value="value1">Значение 1</option>
+                                <option value="value2">Значение 2</option>
+                                <option value="value3">Значение 3</option>
+                            </select>
+                        </form>
+                        <button type="submit" class="search__btn">Search Now</button>
+                        <img src="images/icons/search.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="features__inner">
+                <div class="features__item">
+                    <div class="features__item-img" style="background-image: url(images/features/best-icon.png);"></div>
+                    <div class="features__item-title">Best UX Research</div>
+                    <div class="features__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
+                        ut scelerisque the mattis, leo quam aliquet diam congue is laoreet elit metus.</div>
+                </div>
+                <div class="features__item">
+                    <div class="features__item-img" style="background-image: url(images/features/fully-icon.png);"></div>
+                    <div class="features__item-title">Best UX Research</div>
+                    <div class="features__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
+                        ut scelerisque the mattis, leo quam aliquet diam congue is laoreet elit metus.</div>
+                </div>
+                <div class="features__item">
+                    <div class="features__item-img" style="background-image: url(images/features/best-icon.png);"></div>
+                    <div class="features__item-title">Best UX Research</div>
+                    <div class="features__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
+                        ut scelerisque the mattis, leo quam aliquet diam congue is laoreet elit metus.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product__slider">
+        <div class="container">
+            <div class="product__inner">
+                <div class="product__panel">
+                    <div class="product__panel-name">Weekly Featured Products</div>
+                    <div class="product__panel-btn"></div>
+                </div>
+                <div class="product__inner-wrapper">
+                    <a href="#"><div class="product__inner-img" href="#" style="background-image: url(images/background.png);"></div></a>
+                    <div class="product__inner-container">
+                        <a class="product__inner-title" href="#">One Page Resume Template</a>
+                        <div class="product__inner-info">
+                            <div class="product__inner-person" style="background-image: url(images/author.png);">
+                                AazzTech
+                            </div>
+                            <div class="product__inner-name" style="background-image: url(images/name/plugin.png);">WordPress</div>
+                        </div>
+                        <div class="product__inner-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                            scelerisque the mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo
+                            ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.</div>
+                        <div class="product__inner-tag">
+                            <div class="product__inner-tag-item">website</div>
+                            <div class="product__inner-tag-item">plugin</div>
+                            <div class="product__inner-tag-item">landing page</div>
+                        </div>
+                        <div class="product__inner-box">
+                            <div class="product__inner-boxing">
+                                <div class="product__inner-price">$10 - $50</div>
+                                <div class="product__inner-likes"><span class="lnr lnr-heart"></span> 46</div>
+                                <div class="product__inner-purchases"><span class="lnr lnr-cart"></span>634</div>
+                            </div>
+                            <div class="product__inner-star">(05)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shop">
+        <div class="container">
+            <div class="shop__inner">
+                <div class="shop__filter">
+                    <div class="shop__filter-main"></div>
+                    <div class="shop__filter-btn">
+                        <button type="button" data-filter=".category-wordpress">WordPress</button>
+                        <button type="button" data-filter="">Plugins</button>
+                        <button type="button" data-filter="">Site Template</button>
+                        <button type="button" data-filter=".category-psd">PSD Template</button>
+                        <button type="button" data-filter="">Joomla</button>
+                        <button type="button" data-filter="">User Interface</button>
+                        <button type="button" data-filter="">Landing Page</button>
+                        <button type="button" data-filter="">Software</button>
+                    </div>
+                </div>
+                <div class="shop__items">
+                    <div class="shop__item mix category-wordpress">
+                        <div class="shop__item-img" style="background-image: url(images/background/bg-item.png);"></div>
+                        <div class="shop__item-wrapper">
+                            <div class="shop__item-title">E-commerce Shopping Cart</div>
+                            <div class="shop__item-box">
+                                <div class="shop__item-person" style="background-image: url(images/author.png);">Theme-Valley</div>
+                                <div class="shop__item-name" style="background-image: url(images/name/plugin.png);">Plugin</div>
+                            </div>    
+                            <div class="shop__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, 
+                                justo ut scelerisque the mattis, leo quam aliquet congue.</div>
+                            <div class="shop__item-info">
+                                <div class="shop__item-boxing">
+                                    <div class="shop__item-price">$20</div>
+                                    <div class="shop__item-likes"><span class="lnr lnr-heart"></span>90</div>
+                                </div>
+                                <div class="shop__item-buy">
+                                    <span class="lnr lnr-cart"></span>
+                                    <span class="shop__item-buy-num">246</span> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop__item mix category-psd">
+                        <div class="shop__item-img" style="background-image: url(images/background/bg-item.png);"></div>
+                        <div class="shop__item-wrapper">
+                            <div class="shop__item-title">Marketify Coffee Shop</div>
+                            <div class="shop__item-box">
+                                <div class="shop__item-person" style="background-image: url(images/author.png);">EchoTheme</div>
+                                <div class="shop__item-name" style="background-image: url(images/name/psd.png);">PSD</div>
+                            </div>    
+                            <div class="shop__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, 
+                                justo ut scelerisque the mattis, leo quam aliquet congue.</div>
+                            <div class="shop__item-info">
+                                <div class="shop__item-boxing">
+                                    <div class="shop__item-price">$18</div>
+                                    <div class="shop__item-likes"><span class="lnr lnr-heart"></span>48</div>
+                                </div>
+                                <div class="shop__item-buy"><span class="lnr lnr-cart"></span>50</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop__item mix category-html">
+                        <div class="shop__item-img" style="background-image: url(images/background/bg-item.png);"></div>
+                        <div class="shop__item-wrapper">
+                            <div class="shop__item-title">Bryson - Portfolio Template</div>
+                            <div class="shop__item-box">
+                                <div class="shop__item-person" style="background-image: url(images/author.png);">Artcorner</div>
+                                <div class="shop__item-name" style="background-image: url(images/name/html.png);">HTML</div>
+                            </div>    
+                            <div class="shop__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, 
+                                justo ut scelerisque the mattis, leo quam aliquet congue.</div>
+                            <div class="shop__item-info">
+                                <div class="shop__item-boxing">
+                                    <div class="shop__item-price">$10</div>
+                                    <div class="shop__item-likes"><span class="lnr lnr-heart"></span>56</div>
+                                </div>
+                                <div class="shop__item-buy"><span class="lnr lnr-cart"></span>68</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop__item mix category-wordpress">
+                        <div class="shop__item-img" style="background-image: url(images/background/bg-item.png);"></div>
+                        <div class="shop__item-wrapper">
+                            <div class="shop__item-title">E-commerce Shopping Cart</div>
+                            <div class="shop__item-box">
+                                <div class="shop__item-person" style="background-image: url(images/author.png);">Design-Hub</div>
+                                <div class="shop__item-name" style="background-image: url(images/name/plugin.png);">Plugin</div>
+                            </div>    
+                            <div class="shop__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, 
+                                justo ut scelerisque the mattis, leo quam aliquet congue.</div>
+                            <div class="shop__item-info">
+                                <div class="shop__item-boxing">
+                                    <div class="shop__item-price">$10 - $50</div>
+                                    <div class="shop__item-likes"><span class="lnr lnr-heart"></span>90</div>
+                                </div>
+                                <div class="shop__item-buy"><span class="lnr lnr-cart"></span>45</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop__item mix category-psd">
+                        <div class="shop__item-img" style="background-image: url(images/background/bg-item.png);"></div>
+                        <div class="shop__item-wrapper">
+                            <div class="shop__item-title">Marketify Coffee Shop</div>
+                            <div class="shop__item-box">
+                                <div class="shop__item-person" style="background-image: url(images/author.png);">AazzTech</div>
+                                <div class="shop__item-name" style="background-image: url(images/name/psd.png);">PSD</div>
+                            </div>    
+                            <div class="shop__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, 
+                                justo ut scelerisque the mattis, leo quam aliquet congue.</div>
+                            <div class="shop__item-info">
+                                <div class="shop__item-boxing">
+                                    <div class="shop__item-price">$10 - $50</div>
+                                    <div class="shop__item-likes"><span class="lnr lnr-heart"></span>48</div>
+                                </div>
+                                <div class="shop__item-buy"><span class="lnr lnr-cart"></span>50</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop__item mix category-html">
+                        <div class="shop__item-img" style="background-image: url(images/background/bg-item.png);"></div>
+                        <div class="shop__item-wrapper">
+                            <div class="shop__item-title">Bryson - Portfolio Template</div>
+                            <div class="shop__item-box">
+                                <div class="shop__item-person" style="background-image: url(images/author.png);">Coder-Lab</div>
+                                <div class="shop__item-name" style="background-image: url(images/name/html.png);">HTML</div>
+                            </div>    
+                            <div class="shop__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, 
+                                justo ut scelerisque the mattis, leo quam aliquet congue.</div>
+                            <div class="shop__item-info">
+                                <div class="shop__item-boxing">
+                                    <div class="shop__item-price">$10</div>
+                                    <div class="shop__item-likes"><span class="lnr lnr-heart"></span>56</div>
+                                </div>
+                                <div class="shop__item-buy"><span class="lnr lnr-cart"></span>68</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
-    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
