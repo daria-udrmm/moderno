@@ -12,6 +12,15 @@ $(function(){
         slidesToScroll: 3,
         prevArrow: $('.prev'),
         nextArrow: $('.next')
+    });
+    
+    $('.feedback__slider').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        variableWidth: true,
+        prevArrow: $('.feedback-prev'),
+        nextArrow: $('.feedback-next')
     });  
 
     var mixer = mixitup('.shop__items');
