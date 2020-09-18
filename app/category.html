@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie = edge">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="content page-content">
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top-inner">
+                        <div class="header__logo">
+                            <a href="">
+                                <img src="images/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="header__text">
+                            <a href="">Become a Seller</a>
+                        </div>
+
+                        <div class="header__box">
+                            <a class="ring" href=""></a>
+                            <a class="message" href=""></a>
+                            <a class="basket" href=""></a>
+                            <a class="header__btn" href="">Login</a>
+                            <a class="header__btn" href="">Registrarion</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__menu">
+                <div class="container">
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li>
+                                <a href="#">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    All products
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Wordpress
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Festures
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Pages
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="menu__search">
+                            <input type="text" placeholder="Search product here...">
+                            <button><span class="lnr lnr-magnifier"></span></button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+
+    <section class="slider__search" style="background-image: url(images/background/bg-blue.png);">
+        <div class="container">
+            <div class="slider__search-title"><span>4,572</span> wordpress themes, made with love</div>
+            <div class="slider__search-form">
+                <input type="text" placeholder="Search your products">
+                <button>Search</button>
+            </div>
+            <div class="breadcrumbs">
+                <div class="container">
+                    <div class="breadcrumbs__inner">
+                        <ul class="breadcrumbs__list">
+                            <li><a href="#">Home</a></li>
+                            <li><span>Category Page Grid</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="criterion">
+        <div class="container">
+            <div class="criterion__inner">
+                <div class="criterion__name">
+                    <a href="#" class="criterion__name-item active">New Products</a>
+                    <a href="#" class="criterion__name-item">Popular Products</a>
+                </div>
+                <div class="critarion__wrapper">
+                    <div class="criterion__price">
+                        <form action="">
+                            <select name="select">
+                                <option disabled selected>Price: Low to High</option>
+                                <option value="value1">Значение 1</option>
+                                <option value="value2">Значение 2</option>
+                                <option value="value3">Значение 3</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="criterion__items">
+                        <form action="">
+                            <select name="select">
+                                <option disabled selected>12 Items Per Page</option>
+                                <option value="value1">Значение 1</option>
+                                <option value="value2">Значение 2</option>
+                                <option value="value3">Значение 3</option>
+                            </select>
+                        </form>    
+                    </div>
+                    <div class="criterion__icons">
+                        <button class="icon-th-large active"></button>
+                        <button class="icon-list"></button>
+                    </div>
+                </div>
+                
+            </div>    
+        </div>
+    </section>
+
+    <section class="product-page">
+        <div class="container product-page-container">
+            <aside class="product-page__aside">
+                <div class="categories aside__item">
+                    <div class="aside__title">
+                        Categories
+                    </div>
+                    <ul class="categories__list">
+                        <li><a href="#" class="active">Wordpress</a><span>35</span></li>
+                        <li><a href="#">Landing Page</a><span>45</span></li>
+                        <li><a href="#">Psd Template</a><span>13</span></li>
+                        <li><a href="#">Plugins</a><span>08</span></li>
+                        <li><a href="#">HTML Template</a><span>34</span></li>
+                        <li><a href="#">Components</a><span>78</span></li>
+                        <li><a href="#">Joomla Template</a><span>26</span></li>
+                    </ul>
+                </div>
+                <div class="price-products aside__item">
+                    <div class="aside__title">
+                        Price Products
+                    </div>
+                    <ul class="categories__list">
+                        <li><a href="#">Trending Products</a></li>
+                        <li><a href="#">Popular Products</a></li>
+                        <li><a href="#">New Products</a></li>
+                        <li><a href="#">Best Seller</a></li>
+                        <li><a href="#">Best Rating</a></li>
+                        <li><a href="#">Low Price</a></li>
+                        <li><a href="#">High Price</a></li>
+                    </ul>
+                </div>
+                <div class="price-range aside__item">
+                    <div class="aside__title">
+                        Price Range
+                    </div>
+                    <form>
+                        <input type="text" class="js-range-slider" name="my_range" value="" />
+                        <button type="submit">Search Update</button>
+                    </form>
+                </div>
+            </aside>
+            <div class="product-page__content">
+                <div class="product-page__items">
+                    <div class="product-page__item">
+                        <div class="product-page-img" style="background-image: url(images/background/bg-item.png);"></div>
+                        <div class="product-wrapper">
+                            <div class="product-wrapper-title">Finance and Consulting Business Theme</div>
+                            <div class="product__list-text">
+                                Nunc placerat mi id nisi inter dum mollis. Praesent phare...
+                            </div>
+                            <div class="product__item-box">
+                                <div class="shop__item-person" style="background-image: url(images/author.png);">Theme-Valley</div>
+                            </div>   
+                            <div class="product__box">
+                                <div class="product__box-star"></div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__bottom-price">$18</div>
+                                <div class="product__bottom-name" style="background-image: url(images/name/plugin.png)";>WordPress</div>
+                            </div>
+                            <div class="shop__list-wrapper">
+                                <div class="shop__item-person shop__list" style="background-image: url(images/author.png);">Theme-Valley</div>
+                                <div class="shop__list-likes"><span class="lnr lnr-heart"></span>90 loves</div>
+                                <div class="shop__list-comments"><span class="lnr lnr-bubble"></span>90 Comments</div>
+                                <div class="product__box-star shop__list"></div>
+                                <div class="product__num-star">(34)</div>
+                            </div>
+                            <div class="shop__list-last">
+                                <div class="product__list-price">$18</div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                        </div>    
+                    </div>
+                    
+                    <div class="product-page__item">
+                        <div class="product-page-img" style="background-image: url(images/background/bg-item.png);"></div>
+                        <div class="product-wrapper">
+                            <div class="product-wrapper-title">Finance and Consulting Business Theme</div>
+                            <div class="product__list-text">
+                                Nunc placerat mi id nisi inter dum mollis. Praesent phare...
+                            </div>
+                            <div class="product__item-box">
+                                <div class="shop__item-person" style="background-image: url(images/author.png);">Theme-Valley</div>
+                            </div>   
+                            <div class="product__box">
+                                <div class="product__box-star"></div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__bottom-price">$18</div>
+                                <div class="product__bottom-name" style="background-image: url(images/name/plugin.png)";>WordPress</div>
+                            </div>
+                            <div class="shop__list-wrapper">
+                                <div class="shop__item-person shop__list" style="background-image: url(images/author.png);">Theme-Valley</div>
+                                <div class="shop__list-likes"><span class="lnr lnr-heart"></span>90 loves</div>
+                                <div class="shop__list-comments"><span class="lnr lnr-bubble"></span>90 Comments</div>
+                                <div class="product__box-star shop__list"></div>
+                                <div class="product__num-star">(34)</div>
+                            </div>
+                            <div class="shop__list-last">
+                                <div class="product__list-price">$18</div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="product-page__item">
+                        <div class="product-page-img" style="background-image: url(images/background/bg-item.png);"></div>
+                        <div class="product-wrapper">
+                            <div class="product-wrapper-title">Finance and Consulting Business Theme</div>
+                            <div class="product__list-text">
+                                Nunc placerat mi id nisi inter dum mollis. Praesent phare...
+                            </div>
+                            <div class="product__item-box">
+                                <div class="shop__item-person" style="background-image: url(images/author.png);">Theme-Valley</div>
+                            </div>   
+                            <div class="product__box">
+                                <div class="product__box-star"></div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__bottom-price">$18</div>
+                                <div class="product__bottom-name" style="background-image: url(images/name/plugin.png)";>WordPress</div>
+                            </div>
+                            <div class="shop__list-wrapper">
+                                <div class="shop__item-person shop__list" style="background-image: url(images/author.png);">Theme-Valley</div>
+                                <div class="shop__list-likes"><span class="lnr lnr-heart"></span>90 loves</div>
+                                <div class="shop__list-comments"><span class="lnr lnr-bubble"></span>90 Comments</div>
+                                <div class="product__box-star shop__list"></div>
+                                <div class="product__num-star">(34)</div>
+                            </div>
+                            <div class="shop__list-last">
+                                <div class="product__list-price">$18</div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="product-page__item">
+                        <div class="product-page-img" style="background-image: url(images/background/bg-item.png);"></div>
+                        <div class="product-wrapper">
+                            <div class="product-wrapper-title">Finance and Consulting Business Theme</div>
+                            <div class="product__list-text">
+                                Nunc placerat mi id nisi inter dum mollis. Praesent phare...
+                            </div>
+                            <div class="product__item-box">
+                                <div class="shop__item-person" style="background-image: url(images/author.png);">Theme-Valley</div>
+                            </div>   
+                            <div class="product__box">
+                                <div class="product__box-star"></div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__bottom-price">$18</div>
+                                <div class="product__bottom-name" style="background-image: url(images/name/plugin.png)";>WordPress</div>
+                            </div>
+                            <div class="shop__list-wrapper">
+                                <div class="shop__item-person shop__list" style="background-image: url(images/author.png);">Theme-Valley</div>
+                                <div class="shop__list-likes"><span class="lnr lnr-heart"></span>90 loves</div>
+                                <div class="shop__list-comments"><span class="lnr lnr-bubble"></span>90 Comments</div>
+                                <div class="product__box-star shop__list"></div>
+                                <div class="product__num-star">(34)</div>
+                            </div>
+                            <div class="shop__list-last">
+                                <div class="product__list-price">$18</div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="product-page__item">
+                        <div class="product-page-img" style="background-image: url(images/background/bg-item.png);"></div>
+                        <div class="product-wrapper">
+                            <div class="product-wrapper-title">Finance and Consulting Business Theme</div>
+                            <div class="product__list-text">
+                                Nunc placerat mi id nisi inter dum mollis. Praesent phare...
+                            </div>
+                            <div class="product__item-box">
+                                <div class="shop__item-person" style="background-image: url(images/author.png);">Theme-Valley</div>
+                            </div>   
+                            <div class="product__box">
+                                <div class="product__box-star"></div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__bottom-price">$18</div>
+                                <div class="product__bottom-name" style="background-image: url(images/name/plugin.png)";>WordPress</div>
+                            </div>
+                            <div class="shop__list-wrapper">
+                                <div class="shop__item-person shop__list" style="background-image: url(images/author.png);">Theme-Valley</div>
+                                <div class="shop__list-likes"><span class="lnr lnr-heart"></span>90 loves</div>
+                                <div class="shop__list-comments"><span class="lnr lnr-bubble"></span>90 Comments</div>
+                                <div class="product__box-star shop__list"></div>
+                                <div class="product__num-star">(34)</div>
+                            </div>
+                            <div class="shop__list-last">
+                                <div class="product__list-price">$18</div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="product-page__item">
+                        <div class="product-page-img" style="background-image: url(images/background/bg-item.png);"></div>
+                        <div class="product-wrapper">
+                            <div class="product-wrapper-title">Finance and Consulting Business Theme</div>
+                            <div class="product__list-text">
+                                Nunc placerat mi id nisi inter dum mollis. Praesent phare...
+                            </div>
+                            <div class="product__item-box">
+                                <div class="shop__item-person" style="background-image: url(images/author.png);">Theme-Valley</div>
+                            </div>   
+                            <div class="product__box">
+                                <div class="product__box-star"></div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__bottom-price">$18</div>
+                                <div class="product__bottom-name" style="background-image: url(images/name/plugin.png)";>WordPress</div>
+                            </div>
+                            <div class="shop__list-wrapper">
+                                <div class="shop__item-person shop__list" style="background-image: url(images/author.png);">Theme-Valley</div>
+                                <div class="shop__list-likes"><span class="lnr lnr-heart"></span>90 loves</div>
+                                <div class="shop__list-comments"><span class="lnr lnr-bubble"></span>90 Comments</div>
+                                <div class="product__box-star shop__list"></div>
+                                <div class="product__num-star">(34)</div>
+                            </div>
+                            <div class="shop__list-last">
+                                <div class="product__list-price">$18</div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="product-page__item">
+                        <div class="product-page-img" style="background-image: url(images/background/bg-item.png);"></div>
+                        <div class="product-wrapper">
+                            <div class="product-wrapper-title">Finance and Consulting Business Theme</div>
+                            <div class="product__list-text">
+                                Nunc placerat mi id nisi inter dum mollis. Praesent phare...
+                            </div>
+                            <div class="product__item-box">
+                                <div class="shop__item-person" style="background-image: url(images/author.png);">Theme-Valley</div>
+                            </div>   
+                            <div class="product__box">
+                                <div class="product__box-star"></div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__bottom-price">$18</div>
+                                <div class="product__bottom-name" style="background-image: url(images/name/plugin.png)";>WordPress</div>
+                            </div>
+                            <div class="shop__list-wrapper">
+                                <div class="shop__item-person shop__list" style="background-image: url(images/author.png);">Theme-Valley</div>
+                                <div class="shop__list-likes"><span class="lnr lnr-heart"></span>90 loves</div>
+                                <div class="shop__list-comments"><span class="lnr lnr-bubble"></span>90 Comments</div>
+                                <div class="product__box-star shop__list"></div>
+                                <div class="product__num-star">(34)</div>
+                            </div>
+                            <div class="shop__list-last">
+                                <div class="product__list-price">$18</div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="product-page__item">
+                        <div class="product-page-img" style="background-image: url(images/background/bg-item.png);"></div>
+                        <div class="product-wrapper">
+                            <div class="product-wrapper-title">Finance and Consulting Business Theme</div>
+                            <div class="product__list-text">
+                                Nunc placerat mi id nisi inter dum mollis. Praesent phare...
+                            </div>
+                            <div class="product__item-box">
+                                <div class="shop__item-person" style="background-image: url(images/author.png);">Theme-Valley</div>
+                            </div>   
+                            <div class="product__box">
+                                <div class="product__box-star"></div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__bottom-price">$18</div>
+                                <div class="product__bottom-name" style="background-image: url(images/name/plugin.png)";>WordPress</div>
+                            </div>
+                            <div class="shop__list-wrapper">
+                                <div class="shop__item-person shop__list" style="background-image: url(images/author.png);">Theme-Valley</div>
+                                <div class="shop__list-likes"><span class="lnr lnr-heart"></span>90 loves</div>
+                                <div class="shop__list-comments"><span class="lnr lnr-bubble"></span>90 Comments</div>
+                                <div class="product__box-star shop__list"></div>
+                                <div class="product__num-star">(34)</div>
+                            </div>
+                            <div class="shop__list-last">
+                                <div class="product__list-price">$18</div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="product-page__item">
+                        <div class="product-page-img" style="background-image: url(images/background/bg-item.png);"></div>
+                        <div class="product-wrapper">
+                            <div class="product-wrapper-title">Finance and Consulting Business Theme</div>
+                            <div class="product__list-text">
+                                Nunc placerat mi id nisi inter dum mollis. Praesent phare...
+                            </div>
+                            <div class="product__item-box">
+                                <div class="shop__item-person" style="background-image: url(images/author.png);">Theme-Valley</div>
+                            </div>   
+                            <div class="product__box">
+                                <div class="product__box-star"></div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__bottom-price">$18</div>
+                                <div class="product__bottom-name" style="background-image: url(images/name/plugin.png)";>WordPress</div>
+                            </div>
+                            <div class="shop__list-wrapper">
+                                <div class="shop__item-person shop__list" style="background-image: url(images/author.png);">Theme-Valley</div>
+                                <div class="shop__list-likes"><span class="lnr lnr-heart"></span>90 loves</div>
+                                <div class="shop__list-comments"><span class="lnr lnr-bubble"></span>90 Comments</div>
+                                <div class="product__box-star shop__list"></div>
+                                <div class="product__num-star">(34)</div>
+                            </div>
+                            <div class="shop__list-last">
+                                <div class="product__list-price">$18</div>
+                                <div class="product__box-cart"><span class="lnr lnr-cart"></span>427</div>
+                            </div>
+                        </div>    
+                    </div>
+                    
+                </div>
+                <div class="pagination">
+                    <ul class="pagination__list">
+                        <li><a class="arrow" href="#"><</a></li>
+                        <li><a class="active" href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">8</a></li>
+                        <li><a class="arrow active" href="#">></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <section class="banner" style="background-image: url(images/background/purple.svg);">
+        <div class="container">
+            <div class="banner__inner">
+                <div class="banner__inner-title">Ready to Join Our Marketplace!</div>
+                <div class="banner__inner-text">Over 25,000 designers and developers trust the MartPlace.</div>
+                <a href="#" class="banner__inner-btn">Join Us Today</a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer class="footer">
+    <div class="footer__top">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__item footer__item-first">
+                    <div class="footer__logo">
+                        <a href="#"><img src="images/logo__footer.png" alt=""></a>
+                    </div>
+                    <div class="footer__text">Nunc placerat mi id nisi interdum they mollis. Praesent pharetra, justo ut scel erisque the mattis, leo quam.</div>
+                    <div class="footer__phone">Phone: +6789-875-2235</div>
+                    <div class="footer__mail">support@aazztech.com</div>
+                    <div class="footer__address">202 New Hampshire Avenue Northwest #100, New York-2573</div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__title">Our Company</div>
+                    <div class="footer__list">
+                        <ul class="footer__list-item">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">How It Work</a></li>
+                            <li><a href="#">Affiliates</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Copyright Notice</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__title">Help Support</div>
+                    <div class="footer__list">
+                        <ul class="footer__list-item">
+                            <li><a href="#">Support Forum</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Support Policy</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Buyers Faq</a></li>
+                            <li><a href="#">Sellers Faq</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__item footer__item-last">
+                    <div class="footer__title">Newsletter</div>
+                    <div class="footer__text">Subscribe to get the latest news, update and offer information. Don't worry, we won't send spam!</div>
+                    <div class="footer__form">
+                        <input type="text" placeholder="Enter email">
+                        <button type="submit">Submit</button>
+                    </div>
+                    <div class="footer__media">
+                        <ul class="footer__media-link">
+                            <li><a href="#" class="link-facebook"></a></li>
+                            <li><a href="#" class="link-twitter"></a></li>
+                            <li><a href="#" class="link-google"></a></li>
+                            <li><a href="#" class="link-pinterest"></a></li>
+                            <li><a href="#" class="link-in"></a></li>
+                            <li><a href="#" class="link-ball"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="footer__copy">©2017 <span>MartPlace</span>. All rights reserved. Created by <span>AazzTech</span></div>
+        </div>
+    </div>            
+</footer>
+</div>    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
