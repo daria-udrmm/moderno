@@ -47,12 +47,38 @@ $(function(){
       $('.icon-list').addClass('active'),
       $('.icon-th-large').removeClass('active')
     });
+
     $('.icon-th-large').on('click', function(){
       $('.product-page__item').removeClass('list'),
       $('.icon-th-large').addClass('active'),
       $('.icon-list').removeClass('active')
     });
 
+    $('.aside-title').on('click', function(){
+     if($('.categories__list').hasClass('active')){
+      $('.categories__list').removeClass('active')
+     }else{
+      $('.categories__list').addClass('active')
+     }
+    });
+
+    $('.aside-title-second').on('click', function(){
+     if($('.categories__list-second').hasClass('active')){
+      $('.categories__list-second').removeClass('active')
+     }else{
+      $('.categories__list-second').addClass('active')
+     }
+    });
+
+    $('.product-one__tabs .tab').on('click', function(event) {
+      var id = $(this).attr('data-id');
+        $('.product-one__tabs').find('.tab-item').removeClass('active-tab').hide();
+        $('.product-one__tabs .tabs').find('.tab').removeClass('active');
+        $(this).addClass('active');
+        $('#'+id).addClass('active-tab').fadeIn();
+        return false;
+      });
+    
     var mixer = mixitup('.shop__items');
 
 });
