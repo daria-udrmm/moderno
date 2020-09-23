@@ -2427,3 +2427,57 @@ a.aside__item-button{
         margin: 0 auto;
     }
 }
+/*plan*/
+.plan__item{
+    width: 370px;
+    background-color: #fff;
+    padding: 30px 25px;
+    border-top: 3px solid $red;
+    &-title{
+        border-bottom: 1px solid #e8ebf0;
+        padding-bottom: 30px;
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+    }
+    &-third{
+        border-top: 3px solid #feb71d;
+    }
+    &-second{
+        border-top: 3px solid $blue;
+    }
+    &-price{
+        padding-top: 25px;
+        padding-bottom: 50px;
+        font-size: 36px;
+        text-align: center;
+    }
+    ul{
+        margin-bottom: 40px;
+        li{
+            margin-left: 30px;
+            list-style: circle;;
+            & + li{
+                margin-top: 20px;
+            }
+            span{
+                font-weight: 700;
+            }
+        }
+    }
+    a{
+        width: 100%;
+        text-align: center;
+        border-radius: 4px;
+        color: #fff;
+        padding: 11px 0;
+        background-color: $red;
+        &.plan__item-btn-third{
+            background-color: #feb71d;
+        }
+        &.plan__item-btn-second{
+            background-color: $blue;
+        }
+    }
+    
+}
