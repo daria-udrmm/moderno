@@ -2470,6 +2470,7 @@ a.aside__item-button{
         text-align: center;
         border-radius: 4px;
         color: #fff;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
         padding: 11px 0;
         background-color: $red;
         &.plan__item-btn-third{
@@ -2479,5 +2480,110 @@ a.aside__item-button{
             background-color: $blue;
         }
     }
-    
+}
+/*contacts*/
+.slider__contacts {
+    margin: 0 auto;
+    font-size: 30px;
+    max-width: 420px;
+    padding-bottom: 30px;
+    font-size: 26px;
+    color: #fff;
+}
+.slider__contact{
+    padding: 90px 0 100px;
+}    
+.slider__text{
+    color: #fff;
+    font-size: 20px;
+}
+.contact__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.contact__item{
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+    height: 300px;
+    width: 360px;
+    @include br4;
+    &-text{
+        margin: 0 auto;
+        max-width: 250px;
+    }
+    .lnr{
+        color: $blue;
+        font-size: 48px;
+    }
+    &-img{
+        margin-bottom: 45px;
+    }
+    &-title{
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 35px;
+    }
+}
+.latest-contact{
+    padding-bottom: 0;
+}
+.letter{
+    padding: 50px 0 120px;
+    background-color: #eff1f5;
+    textarea{
+        padding-left: 50px;
+        padding-top: 20px;
+        margin: 40px 0 30px;
+        width: 100%;
+        height: 135px;
+        border: 1px solid #e7e7e7;
+    }
+    form{
+        padding: 0px 200px;
+    }
+    button{
+        cursor: pointer;
+        box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+        background-color: $blue;
+        display: block;
+        outline: none;
+        color: #fff;
+        padding: 20px 30px;
+        border-radius: 30px;
+        margin: 0 auto;
+        border: none;
+    }
+}
+.letter__title{
+    font-size: 24px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #e8ebf0;
+
+}
+.letter__inner{
+    @include br4;
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+.letter__form-row{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    input{
+        padding-left: 50px;
+        color: #e7e7e7;
+        border: 1px solid #e7e7e7;
+        width: 360px;
+        height: 50px;
+    }
+    & + .letter__form-row{
+        margin-top: 30px;
+    }
+}
+.map{
+    iframe{
+        margin-bottom: -8px;
+    }
 }
