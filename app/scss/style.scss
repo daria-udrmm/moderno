@@ -2538,6 +2538,7 @@ a.aside__item-button{
         width: 100%;
         height: 135px;
         border: 1px solid #e7e7e7;
+        resize: none;
     }
     form{
         padding: 0px 200px;
@@ -2585,5 +2586,71 @@ a.aside__item-button{
 .map{
     iframe{
         margin-bottom: -8px;
+    }
+}
+/*login*/
+.login{
+    background-color: $background;
+}
+.login__inner{
+    padding: 75px 0px 120px;
+}
+.login__item{
+    @include br4;
+    padding: 60px 0;
+    background-color: #fff;
+    max-width: 560px;
+    margin: 0 auto;
+    form,
+    .login__link{
+        padding: 0px 50px;
+    }
+    p{
+        padding: 0 50px;
+    }
+    .login__text{
+        text-align: center;
+        color: #555;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #e8ebf0;
+    }
+    .login__title{
+        text-align: center;
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    .enter{
+        margin: 30px 0 15px;
+        font-weight: 700;
+    }
+    .user__info{
+        width: 100%;
+        background-color: #f4f5f8;
+        border: none;
+        padding-left: 20px;
+        height: 50px;
+    }
+    .checkbox{
+        margin: 30px 0;
+    }
+    button{
+        display: block;
+        cursor: pointer;
+        box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+        background-color: $blue;
+        outline: none;
+        color: #fff;
+        padding: 20px 30px;
+        border-radius: 30px;
+        border: none;
+        margin-bottom: 40px;
+    }
+    .login__link{
+        display: flex;
+        justify-content: space-between;
+        color: #898f96;
+        a{
+            color: $blue;
+        }
     }
 }
