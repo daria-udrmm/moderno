@@ -2609,9 +2609,9 @@ a.aside__item-button{
         padding: 0 50px;
     }
     .login__text{
+        padding: 0px 60px 30px;
         text-align: center;
         color: #555;
-        padding-bottom: 30px;
         border-bottom: 1px solid #e8ebf0;
     }
     .login__title{
@@ -2631,9 +2631,10 @@ a.aside__item-button{
         height: 50px;
     }
     .checkbox{
-        margin: 30px 0;
+        margin-top: 30px;
     }
     button{
+        margin-top: 30px;
         display: block;
         cursor: pointer;
         box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
