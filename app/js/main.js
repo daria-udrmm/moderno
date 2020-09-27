@@ -77,7 +77,19 @@ $(function(){
         $(this).addClass('active');
         $('#'+id).addClass('active-tab').fadeIn();
         return false;
-      });
+    });
+
+    $('.icon-list').on('click', function(){
+      $('.shop__item').addClass('list'),
+      $('.icon-list').addClass('active'),
+      $('.icon-th-large').removeClass('active')
+    });
+
+    $('.icon-th-large').on('click', function(){
+      $('.shop__item').removeClass('list'),
+      $('.icon-th-large').addClass('active'),
+      $('.icon-list').removeClass('active')
+    });
     
     var mixer = mixitup('.shop__items');
 
