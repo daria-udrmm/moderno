@@ -14,6 +14,19 @@
     align-items: center;
 }
 
+.header__btn-menu{
+    cursor: pointer;
+    display: none;
+    width: 35px;
+    div{
+        background-color: $blue;
+        height: 4px;
+        & + div {
+            margin-top: 5px;
+        }
+    }
+}
+
 .header__top{
     background-color: $background;
 }
@@ -74,6 +87,20 @@
         width: 72px;
         position: absolute;
         right: 0px;
+    }
+}
+.menu{
+    position: static;
+    input{
+        min-width: 100%;
+    }
+}
+.menu__search{
+    position: relative;
+    button{
+        position: absolute;
+        right: 0;
+        top: 0;
     }
 }
 .blog__search{
@@ -1455,7 +1482,6 @@
 .footer__form{
     position: relative;
     input{
-        width: 300px;
         padding: 20px;
         padding-right: 54px;
         border: none;
@@ -1465,11 +1491,16 @@
         position: absolute;
         padding: 20px;
         border: none;
-        right: 40px;
+        right: 0;
+        top: 0;
         width: 110px;
         background-color: $blue;
         color: #fff;
         border-radius: 30px;
+    }
+    input{
+        width: 100%;
+        display: block;
     }
 }
 
@@ -2846,3 +2877,7 @@ a.aside__item-button{
         
     }
 }
+
+
+
+@import 'media';

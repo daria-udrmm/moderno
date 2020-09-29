@@ -90,6 +90,15 @@ $(function(){
       $('.icon-th-large').addClass('active'),
       $('.icon-list').removeClass('active')
     });
+
+    $('.menu__btn').on('click', function(){
+      $('.menu__list').slideToggle(),
+      $('.menu').toggleClass('active')
+    });
+
+    $('.header__btn-menu').on('click', function(){
+      $('.header__box').toggleClass('active')
+    });
     
     var mixer = mixitup('.shop__items');
 
