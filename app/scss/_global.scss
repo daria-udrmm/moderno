@@ -1,0 +1,51 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p, span{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-decoration: none;
+    color: $text;
+}
+
+ul,
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    font-style: 14px;
+    color: $text;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container-fluid{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.page-content{
+    background-color: #eff1f5;
+}
